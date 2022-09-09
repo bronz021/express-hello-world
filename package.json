@@ -2,10 +2,10 @@
   "name": "express-hello-world",
   "version": "1.0.0",
   "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "serve": "nodemon --watch . server.js",
-    "start": "node server.js",
+    "serve": "nodemon --watch . app.js",
+    "start": "node sapp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/cyclic-software/express-hello-world#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
     "express": "^4.17.1"
   },
   "devDependencies": {
